@@ -1,91 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Recipe page</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-  <link rel="stylesheet" href="./dist/style.css">
+    <title>Frontend Mentor | Recipe page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <link rel="stylesheet" href="./dist/style.css" />
 
-  <img src="./assets/images/image-omelette.jpeg" alt="omelette su un piatto" class="w-full h-auto">
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      src="./assets/images/image-omelette.jpeg"
+      alt="omelette su un piatto"
+      class="w-full h-auto"
+    />
 
-  <div class="px-8 pt-8">
-    <h1 class="font-young text-4xl font-semibold">Simple Omelette Recipe</h1>
+    <div class="px-8 py-8">
+      <h1 class="font-young text-4xl font-semibold">Simple Omelette Recipe</h1>
 
-  <p class="my-5 font-outfit">
-    An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
-  to perfection, optionally filled with your choice of cheese, vegetables, or meats.
-  </p>
+      <p class="my-5 font-outfit">
+        An easy and quick dish, perfect for any meal. This classic omelette
+        combines beaten eggs cooked to perfection, optionally filled with your
+        choice of cheese, vegetables, or meats.
+      </p>
 
-  <div class="bg-RoseWhite rounded-xl p-4">
-    <h3 class="font-outfit text-xl font-semibold text-DarkRaspberry">Preparation time</h3>
-    <ul class="list-disc list-outside py-2 px-8">
-      <li class="py-2"><p><span class="font-outfit font-bold">Total</span>: Approximately 10 minutes</p></li>
-      <li class="py-2"><p><span class="font-outfit font-bold">Preparation</span>: 5 minutes</p></li>
-      <li class="py-2"><p><span class="font-outfit font-bold">Cooking</span>: 5 minutes</p></li>
-    </ul>
-  </div>
-  
+      <div class="bg-RoseWhite rounded-xl p-4">
+        <h3 class="font-outfit text-xl font-semibold text-DarkRaspberry">
+          Preparation time
+        </h3>
+        <ul class="list-disc list-outside py-2 px-8">
+          <li class="py-2">
+            <p>
+              <span class="font-outfit font-bold">Total</span>: Approximately 10
+              minutes
+            </p>
+          </li>
+          <li class="py-2">
+            <p>
+              <span class="font-outfit font-bold">Preparation</span>: 5 minutes
+            </p>
+          </li>
+          <li class="py-2">
+            <p><span class="font-outfit font-bold">Cooking</span>: 5 minutes</p>
+          </li>
+        </ul>
+      </div>
 
-  <h2>Ingredients</h2>
+      <h2 class="font-young text-3xl font-medium text-Nutmeg pt-8 pb-4">
+        Ingredients
+      </h2>
 
-  2-3 large eggs
-  Salt, to taste
-  Pepper, to taste
-  1 tablespoon of butter or oil
-  Optional fillings: cheese, diced vegetables, cooked meats, herbs
+      <ul class="list-disc list-outside px-2 mx-4">
+        <li class="py-2">2-3 large eggs</li>
+        <li class="py-2">Salt, to taste</li>
+        <li class="py-2">Pepper, to taste</li>
+        <li class="py-2">1 tablespoon of butter or oil</li>
+        <li class="py-2">
+          <p>
+            Optional fillings: cheese, diced vegetables, cooked meats, herbs
+          </p>
+        </li>
+      </ul>
 
-  Instructions
+      <div class="w-full h-px bg-LightGray my-6"></div>
 
-  Beat the eggs: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
-  You can add a tablespoon of water or milk for a fluffier texture.
+      <h2 class="font-young text-3xl font-medium text-Nutmeg py-4">
+        Instructions
+      </h2>
 
-  Heat the pan: Place a non-stick frying pan over medium heat and add butter or oil.
+      <ol class="list-decimal px-4">
+        <li>
+          <p class="ml-2">
+            <span class="font-outfit font-bold">Beat the eggs</span>: In a bowl,
+            beat the eggs with a pinch of salt and pepper until they are well
+            mixed. You can add a tablespoon of water or milk for a fluffier
+            texture.
+          </p>
+        </li>
 
-  Cook the omelette: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
-  the eggs evenly coat the surface.
+        <li>
+          <p class="ml-2">
+            <span class="font-outfit font-bold">Heat the pan</span>: Place a
+            non-stick frying pan over medium heat and add butter or oil.
+          </p>
+        </li>
 
-  Add fillings (optional): When the eggs begin to set at the edges but are still slightly runny in the 
-  middle, sprinkle your chosen fillings over one half of the omelette.
+        <li>
+          <p class="ml-2">
+            <span class="font-outfit font-bold">Cook the omelette</span>: Once
+            the butter is melted and bubbling, pour in the eggs. Tilt the pan to
+            ensure the eggs evenly coat the surface.
+          </p>
+        </li>
 
-  Fold and serve: As the omelette continues to cook, carefully lift one edge and fold it over the 
-  fillings. Let it cook for another minute, then slide it onto a plate.
+        <li>
+          <p class="ml-2">
+            <span class="font-outfit font-bold">Add fillings (optional)</span>:
+            When the eggs begin to set at the edges but are still slightly runny
+            in the middle, sprinkle your chosen fillings over one half of the
+            omelette.
+          </p>
+        </li>
 
-  Enjoy: Serve hot, with additional salt and pepper if needed.
+        <li>
+          <p class="ml-2">
+            <span class="font-outfit font-bold">Fold and serve</span>: As the
+            omelette continues to cook, carefully lift one edge and fold it over
+            the fillings. Let it cook for another minute, then slide it onto a
+            plate.
+          </p>
+        </li>
 
-  Nutrition
+        <li>
+          <p class="ml-2">
+            <span class="font-outfit font-bold">Enjoy</span>: Serve hot, with
+            additional salt and pepper if needed.
+          </p>
+        </li>
+      </ol>
 
-  The table below shows nutritional values per serving without the additional fillings.
+      <div class="w-full h-px bg-LightGray my-6"></div>
 
-  Calories
-  277kcal
+      <h2 class="font-young text-3xl font-medium text-Nutmeg py-4">
+        Nutrition
+      </h2>
 
-  Carbs
-  0g
+      <p class="my-5 font-outfit">
+        The table below shows nutritional values per serving without the
+        additional fillings.
+      </p>
 
-  Protein
-  20g
+      <div class="">
+        <p class="flex justify-around">
+          Calories
+          <span class="text-Nutmeg font-outfit font-bold">277kcal</span>
+        </p>
+        <div class="w-full h-px bg-LightGray my-4"></div>
 
-  Fat
-  22g
-  </div>
-  
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+        <p class="flex justify-around">
+          Carbs <span class="text-Nutmeg font-outfit font-bold">0g</span>
+        </p>
+
+        <div class="w-full h-px bg-LightGray my-4"></div>
+        <p class="flex justify-around">
+          Protein <span class="text-Nutmeg font-outfit font-bold">20g</span>
+        </p>
+
+        <div class="w-full h-px bg-LightGray my-4"></div>
+        <p class="flex justify-around">
+          Fat <span class="text-Nutmeg font-outfit font-bold">22g</span>
+        </p>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://www.linkedin.com/in/smailen-vargas/" target="_blank">Smailen Vargas</a>.
+    </div>
+  </body>
 </html>

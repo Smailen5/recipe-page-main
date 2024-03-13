@@ -448,6 +448,16 @@ video {
   display: none;
 }
 
+li.py-2::marker,
+  li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+li::marker {
+  font-weight: 700;
+  font-family: 'outfit', sans-serif;
+}
+
 *, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -548,25 +558,32 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.mx-4{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .my-5{
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
 }
 
-.mt-4{
-  margin-top: 1rem;
-}
-
-.mt-5{
-  margin-top: 1.25rem;
+.my-6{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .ml-2{
   margin-left: 0.5rem;
 }
 
-.ml-4{
-  margin-left: 1rem;
+.flex{
+  display: flex;
 }
 
 .table{
@@ -577,40 +594,37 @@ video {
   height: auto;
 }
 
+.h-px{
+  height: 1px;
+}
+
 .w-full{
   width: 100%;
-}
-
-.w-auto{
-  width: auto;
-}
-
-.list-inside{
-  list-style-position: inside;
 }
 
 .list-outside{
   list-style-position: outside;
 }
 
+.list-decimal{
+  list-style-type: decimal;
+}
+
 .list-disc{
   list-style-type: disc;
 }
 
-.rounded{
-  border-radius: 0.25rem;
-}
-
-.rounded-md{
-  border-radius: 0.375rem;
-}
-
-.rounded-lg{
-  border-radius: 0.5rem;
+.justify-around{
+  justify-content: space-around;
 }
 
 .rounded-xl{
   border-radius: 0.75rem;
+}
+
+.bg-LightGray{
+  --tw-bg-opacity: 1;
+  background-color: hsl(30 18% 87% / var(--tw-bg-opacity));
 }
 
 .bg-RoseWhite{
@@ -622,8 +636,14 @@ video {
   padding: 1rem;
 }
 
-.p-2{
-  padding: 0.5rem;
+.px-2{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .px-8{
@@ -636,39 +656,30 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.px-3{
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
-.px-4{
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.px-6{
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
-.pt-4{
+.py-4{
   padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
-.pt-6{
-  padding-top: 1.5rem;
+.py-8{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.pb-4{
+  padding-bottom: 1rem;
 }
 
 .pt-8{
   padding-top: 2rem;
 }
 
-.font-young{
-  font-family: Young Serif, serif;
-}
-
 .font-outfit{
   font-family: Outfit, sans-serif;
+}
+
+.font-young{
+  font-family: Young Serif, serif;
 }
 
 .text-3xl{
@@ -681,27 +692,17 @@ video {
   line-height: 2.5rem;
 }
 
-.text-5xl{
-  font-size: 3rem;
-  line-height: 1;
-}
-
-.text-2xl{
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
-.font-extralight{
-  font-weight: 200;
-}
-
 .font-bold{
   font-weight: 700;
+}
+
+.font-medium{
+  font-weight: 500;
 }
 
 .font-semibold{
@@ -713,14 +714,7 @@ video {
   color: hsl(332 51% 32% / var(--tw-text-opacity));
 }
 
-.text-\[\]{
-  color: ;
-}
-
-.text-\[600\]{
-  color: 600;
-}
-
-.text-\[700\]{
-  color: 700;
+.text-Nutmeg{
+  --tw-text-opacity: 1;
+  color: hsl(14 45% 36% / var(--tw-text-opacity));
 }
